@@ -1,0 +1,87 @@
+.row{
+    margin: 0;
+}
+.active{
+    background: #cccccc;
+}
+.nav-item{
+    margin-left: 20px;
+    margin-right: 20px
+}
+.nav-link{
+    text-transform: uppercase;
+}
+.carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: white;
+}
+.carousel-indicators .active{
+    background: #b1b1b1
+}
+.carousel-caption{
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex!important;
+    justify-content: flex-end;
+    align-items: center;
+}
+.carousel-caption h1{
+    margin-right: 50px
+}
+.display-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.servicios{
+    border-radius: 50%;
+    filter: grayscale(100%);
+    margin: 5px;
+}
+.servicios:hover{
+    filter: grayscale(0);
+}
+.tour{
+    margin: 20px 10px
+}
+.visas{
+    width: 250px;
+    margin: 20px 50px;
+}
+.img-tour{
+    width: 500px;
+    height: 250px;
+}
+
+
+@media screen and (max-width: 870px){
+    .carousel-caption h1{
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 570px){
+    .img-tour{
+        width: 300px;
+        height: 150px;
+    }
+    .tour-row{
+        width: 300px;
+        text-align: center;
+    }
+    .tour-row img{
+        width: 30px;
+        margin: 0;
+    }
+    .tour-row .col-2{
+        justify-content: flex-end
+    }
+    .tour-row h3{
+        font-size: 1em;
+    }
+}
